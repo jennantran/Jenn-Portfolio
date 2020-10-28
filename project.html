@@ -5,38 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body class='project'>
     <nav>
         <ul class='nav-links'>
             <li><a href='about.html'>About</a></li>
             <li><a href='index.html'>Home</a></li>
-            <li><a href='https://github.com/jennantran/' target='_blank'>Git</a></li>
+            <li><a href='https://github.com/jennantran/' target='_blank'>GitHub</a></li>
             <li><a href='mailto:jennantran@gmail.com' target='_blank'>Contact</a></li>
             <li><a href='https://www.linkedin.com/in/jennantran/' target='_blank'>LinkedIn</a></li>
         </ul>
     </nav>   
     <header></header>
-    <section class='projects'>
+    <!-- <section class='projects'>
             <h2>Motion Logs</h2>
+            <p class='summary'>Motion Logs is an application to help you achieve your fitness goals. It logs workouts by rep, sets, and weights while providing a search engine to look up calories expended. It helps fitness enthusiasts to hold accountability.</p>
             <img src="image/motion-1.png" alt="Motion Log App" class="motion pic">
             <img src="image/motion-2.png" alt="Motion Log App" class="motion pic">
             <img src="image/motion-3.png" alt="Motion Log App" class="motion pic">
+            <i class="fa fa-css3" aria-hidden="true"></i>
   
             <h2>JustTourIt</h2>
+            <p class='summary'> Lets Tour It app is an application where users can search up places near their current location. The user can favorite a place so that they can refer to it later. Whenever traveling, I want to be able to know what places to visit on demand.</p>
             <img src="image/Tour-1.png" alt="Tour App" class="tour pic">
             <img src="image/Tour-2.png" alt="Tour App" class="tour pic">
             <img src="image/Tour-3.png" alt="Tour App" class="tour pic">
 
             <h2>CookEasy</h2>
+            <p class='summary'>CookEasy is an application with an archive of recipes. Users can search up recipes, browse recipes by main ingredients, or browse recipes by cuisine. It's for the days where you don't know what to cook. I come across this on a weekly basis.</p>
             <img src="image/recipe-1.png" alt="Recipe App" class="recipe pic">
             <img src="image/recipe-2.png" alt="Recipe App" class="recipe pic">
             <img src="image/recipe-3.png" alt="Recipe App" class="recipe pic">
 
             <h2>Bts Quiz App</h2>
+            <p class='summary'>BTS quiz app is a trivia application for all the die-hard fans of the biggest boy band in the world. As an avid fan, myself, I wanted other fans to test their BTS knowledge.</p>
             <img src="image/Bts-1.png" alt="Bts App" class="bts pic">
             <img src="image/Bts-2.png" alt="Bts App" class="bts pic">
             <img src="image/Bts-3.png" alt="Bts App" class="bts pic">
-    </section>
+    </section> -->
+    <h2>Motion Logs</h2>
+<div class="slideshow-container">
+    <div class="mySlides1">
+        <img src="image/motion-1.png" alt="Motion Log App" class="motion pic">
+    </div>
+    <div class="mySlides1">
+        <img src="image/motion-2.png" alt="Motion Log App" class="motion pic">
+    </div>
+    <div class="mySlides1">
+        <img src="image/motion-3.png" alt="Motion Log App" class="motion pic">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<h2>JustTourIt</h2>
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="image/Tour-1.png" alt="Tour App" class="tour pic">
+  </div>
+
+  <div class="mySlides2">
+    <img src="image/Tour-2.png" alt="Tour App" class="tour pic">
+  </div>
+
+  <div class="mySlides2">
+    <img src="image/Tour-3.png" alt="Tour App" class="tour pic">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+<h2>CookEasy</h2>
+<div class="slideshow-container">
+    <div class="mySlides3">
+        <img src="image/recipe-1.png" alt="Recipe App" class="recipe pic">
+    </div>
+    <div class="mySlides3">
+        <img src="image/recipe-2.png" alt="Recipe App" class="recipe pic">
+    </div>
+    <div class="mySlides3">
+        <img src="image/recipe-3.png" alt="Recipe App" class="recipe pic">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+
+   
 </body>
+<script src="script.js"></script>
 </html>
