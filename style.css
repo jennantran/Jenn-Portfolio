@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    background-image: url('./image/skyline.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.project{
+    background-color: #6D5C7E; 
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 50px;
+    padding: 150px;
+
+}
+
+h1 span{
+    display: table-cell;
+    animation: animate 2s linear infinite;
+}
+
+h1 span:nth-child(1){
+    animation-delay: 0s; 
+}
+h1 span:nth-child(2){
+    animation-delay: 0.25s; 
+}
+h1 span:nth-child(3){
+    animation-delay: 0.50s; 
+}
+h1 span:nth-child(4){
+    animation-delay: 0.75s; 
+}
+h1 span:nth-child(5){
+    animation-delay: 1s; 
+}
+@keyframes animate{
+    0%, 100%
+    {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00b3ff,
+                    0 0 20px #00b3ff,
+                    0 0 40px #00b3ff,
+                    0 0 80px #00b3ff,
+                    0 0 120px #00b3ff;
+    }
+    5%, 95%
+    {
+        color: #111;
+        filter: blur(0px);
+        text-shadow: 0 0 10px none;
+    }
+}
+
+ul{
+    text-align: right;
+    padding: 10px;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+li a:hover{
+    transform: scale(1.5); 
+}
+
+a:hover{
+     border-bottom: 2px solid white;   
+     opacity: 2;
+
+}
+
+
+/********** project images ********/
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pic{
+    width: 500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h2{
+    padding: 30px;
+}
+
+
+.pic {
+    animation: fadeIn ease 20s;
+    -webkit-animation: fadeIn ease 20s;
+    -moz-animation: fadeIn ease 20s;
+    -o-animation: fadeIn ease 20s;
+    -ms-animation: fadeIn ease 20s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
