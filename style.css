@@ -30,6 +30,10 @@ p.site{
     background-color: #6D5C7E; 
 }
 
+.stack{
+    color: #FEE8AF;
+}
+
 .homeHeader{
     display: flex;
     justify-content: center;
