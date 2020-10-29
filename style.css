@@ -17,7 +17,8 @@ p.site{
 }
 
 .about{
-    background-color: #6D5C7E; 
+    /* background-color: #6D5C7E;  */
+    background-color:#838CAD;
 }
 
 .site{
@@ -129,7 +130,7 @@ a:hover{
 h2{
     padding: 30px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     text-align: center;
 }
 
