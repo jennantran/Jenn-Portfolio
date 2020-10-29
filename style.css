@@ -226,22 +226,7 @@ h2{
     top: 0;
   }
   
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
+
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
@@ -293,8 +278,10 @@ h2{
 }
 
 a.button1, a.button2, a.button3, a.button4{
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
     border: 1px solid #FFFFFF;
     margin: 1px 1px 1px 1px;
     border-radius:0.12em;
@@ -302,6 +289,8 @@ a.button1, a.button2, a.button3, a.button4{
     color: white;
     text-align: center;
     transition: all 0.2s;
+    margin: 20px;
+
 }
 
 
