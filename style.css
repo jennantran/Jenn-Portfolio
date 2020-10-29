@@ -162,6 +162,8 @@ h2{
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+    text-align: center;
+    line-height: 1.6;
 }
 
 
@@ -173,7 +175,7 @@ h2{
   }
   
   /* Hide the images by default */
-   .mySlides1, .mySlides2, .mySlides3 {
+   .mySlides1, .mySlides2, .mySlides3, .mySlides4 {
     display: none;
   } 
   img {vertical-align: middle;}
@@ -288,4 +290,22 @@ h2{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.6;
+}
+
+a.button1, a.button2, a.button3, a.button4{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    margin: 1px 1px 1px 1px;
+    border-radius:0.12em;
+    text-decoration:none;
+    color: white;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+
+a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
+    color:#000000;
+    background-color:#FFFFFF;
 }
