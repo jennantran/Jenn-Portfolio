@@ -134,7 +134,7 @@ a:hover{
 h2{
     padding: 30px;
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Quando', serif;
     text-align: center;
 }
 
@@ -172,14 +172,16 @@ h2{
 
 .summary{
     color: white;
-    width: 70%;
-    font-family: Helvetica;
+    width: 550px;
+    font-family: 'Judson', serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 8px;
     text-align: center;
     line-height: 1.6;
+    padding-bottom:30px;
+    font-size: 18px;
 }
 
 
@@ -291,7 +293,7 @@ h2{
     color:white;
     text-align: center;
     margin-top: 70px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'font-family: 'Quando', serif';
 }
 
 .aboutSummary{
@@ -301,7 +303,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'font-family: 'Quando', serif';
     line-height: 1.6;
     animation: animated-text 3s steps(30, end) 1s 1 normal both;
 }
@@ -327,6 +329,7 @@ a.button1, a.button2, a.button3, a.button4{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
     padding: 15px;
     border: 1px solid #FFFFFF;
     margin: 1px 1px 1px 1px;
@@ -359,6 +362,7 @@ a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
         text-decoration: none;
         color: white;
         font-size: 18px;
+        font-family: 'Judson', serif;
     }
     .aboutSummary{
         width: 70%;
@@ -385,7 +389,7 @@ a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
     li a{
         text-decoration: none;
         color: white;
-        font-size: 18px;
+        font-size: 20px;
     }
     .aboutSummary{
         width: 70%;
