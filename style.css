@@ -17,8 +17,11 @@ p.site{
 }
 
 .about{
-    /* background-color: #6D5C7E;  */
     background-color:#838CAD;
+}
+
+.aboutSummary{
+    width: 50%;
 }
 
 .site{
@@ -172,7 +175,7 @@ h2{
 
 .summary{
     color: white;
-    width: 550px;
+    width: 300px;
     font-family: 'Judson', serif;
     display: block;
     margin-left: auto;
@@ -322,7 +325,7 @@ h2{
       width: 0;
     }
     to {
-      width: 472px;
+      width: 300px;
     }
   }
 a.button1, a.button2, a.button3, a.button4{
@@ -370,12 +373,32 @@ a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
         text-align: center;
         line-height: 1.6;
     }
+    @keyframes typing {
+        from {
+          width: 0
+        }
+        to {
+          width: 100%
+        }
+      }
+      
+      @keyframes animated-text {
+        from {
+          width: 0;
+        }
+        to {
+          width: 450px;
+        }
+      }
     .pic{
         width: 500px;
         height: 350px;
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
+    }
+    p.summary{
+        width: 550px;
     }
 }
 
@@ -403,5 +426,8 @@ a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
+    }
+    p.summary{
+        width: 550px;
     }
   }
